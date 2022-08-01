@@ -1,0 +1,41 @@
+@media(max-width: 620px){
+    .heading h1{
+        font-size: 30px;
+    }
+    
+    .pokemon-slider{
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-arrow{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pokemon-list{
+        height: 480px;
+    }
+
+    .card .container-image-character{
+        max-height: 230px;
+    }
+    
+    .card .card-heading .name{
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .card .card-heading .life{
+        font-size: 14px;
+    }
+
+    .card .description .text{
+        overflow-y: auto;
+        max-height: 100px;
+    }
+}

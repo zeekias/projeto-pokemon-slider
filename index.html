@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokemon Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+
+</head>
+
+<body>
+    <header class="heading">
+        <img src="src/images/pokebola.png" alt="Pokeball" class="pokeball">
+        <h1> Pokemon Cards Slider </h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-arrow btn-back" id="btn-back" disabled="true">
+            <img src="src/images/seta.png" alt="Back Arrow">
+        </button>
+
+        <ul class="pokemon-list">
+            <li class="card selected background-1">
+                <div class="card-heading">
+                    <h2 class="name">Pikachu</h2>
+                    <p class="life">HP 300</p>
+                </div>
+                <div class="container-image">
+                    <img class="image-character" src="src/images/pikachu.png" alt="Pikachu" >
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">É um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.</p>
+                </div>
+            </li>
+            <li class="card background-2">
+                <div class="card-heading">
+                    <h2 class="name">Charizard</h2>
+                    <p class="life">HP 800</p>
+                </div>
+
+                <div class="container-image">
+                    <img class="image-character" src="src/images/charizard.png" alt="Charizard">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">É um Pokémon dracônico e bípede . É principalmente laranja com uma parte inferior creme do peito até a ponta da cauda. Tem um pescoço longo, pequenos olhos azuis, narinas ligeiramente levantadas e duas estruturas semelhantes a chifres saindo da parte de trás de sua cabeça retangular. </p>
+                </div>
+            </li>
+            <li class="card background-3">
+                <div class="card-heading">
+                    <h2 class="name">MewTwo</h2>
+                    <p class="life">HP 1200</p>
+                </div>
+                <div class="container-image">
+                    <img class="image-character" src="src/images/mewtwo.png" alt="Mewtwo">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">É uma criatura com uma postura humanóide, mas tem algumas características felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da cor roxa. Mewtwo tem três dígitos circulares em cada apêndice.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-arrow" id="btn-go">
+            <img src="src/images/seta.png" alt="Go Arrow">
+        </button>
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
